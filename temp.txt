@@ -1,0 +1,13 @@
+conda activate gans-con
+python test.py --dataroot datasets/horse2zebra/testA --name horse2zebra_pretrained --model test --no_dropout
+python test.py --dataroot datasets/horse2zebra/testB --name zebra2horse_pretrained --model test --no_dropout
+
+
+256x256
+horse2zebra
+939 horse images and 1177 zebra images 
+
+horse2zebra: 939 horse images and 1177 zebra images downloaded from ImageNet using keywords wild horse and zebra
+
+
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
